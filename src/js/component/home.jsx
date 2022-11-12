@@ -10,14 +10,19 @@ import Carta from "./carta.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div className="container-fluid">
 			<Navbar/>
 			
-			<div className="container-fluid">
+			<div className="container my-5">
 				<Jumbotron/>
 			</div>
-		
-			<Carta />
+		<div className="row my-5 d-flex justify-content-center">
+		<Carta/>
+		<Carta/>
+		<Carta/>
+		<Carta/>
+		</div>
+			
 		</div>
 		
 	);
